@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #f9fafb;
+
+  background:
+    linear-gradient(120deg, rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.35)),
+    url("image/carte.avif") center/cover no-repeat;
+
+  overflow-y: hidden;
+}
+
+.hero {
+  min-height: 100vh;            
+  display: flex;
+  flex-direction: column;
+}
