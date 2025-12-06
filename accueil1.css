@@ -52,7 +52,7 @@ body {
   max-width: 880px;
   padding: 40px 50px;
 
-  
+
   background: radial-gradient(circle at top left,
               rgba(15, 23, 42, 0.82),
               rgba(15, 23, 42, 0.68));
@@ -63,3 +63,39 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.10);
   box-shadow: 0 22px 55px rgba(0, 0, 0, 0.55);
 }
+
+.subtitle {
+  font-size: 0.9rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #cbd5e1;
+  margin-bottom: 10px;
+}
+
+.subtitle::before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 3px;
+  background: #facc15;
+  border-radius: 999px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin: 0 0 18px;
+}
+
+.highlight {
+  color: #facc15;
+}
+
+.intro {
+  margin: 0;
+  font-size: 1rem;
+  color: #e5e7eb;
+}
+
