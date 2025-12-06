@@ -317,28 +317,3 @@ body {
 }
 
 
-html,
-body {
-  height: auto;
-  overflow-x: hidden;   
-  overflow-y: auto;     
-}
-
-.page,
-.france-page,
-.fr-section {
-  margin-top: 0;
-  padding-top: 10px;    
-}
-
-.zoom-fr,
-.fr-layout {
-  padding-bottom: 20px;   
-}
-
-.plates,
-.fr-plates,
-.photo-group {
-  transform: scale(0.95);
-  transform-origin: left top;
-}
