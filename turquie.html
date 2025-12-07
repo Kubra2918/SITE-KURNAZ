@@ -2,16 +2,16 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Saveurs marocaines</title>
+  <title>Saveurs turques – Voyage & Saveurs</title>
 
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
 
 
-  <link rel="stylesheet" href="maroc1.css">
+  <link rel="stylesheet" href="turquie1.css">
 </head>
 
-<body class="ma-body">
+<body class="tr-body">
 
 
   <header class="topbar">
@@ -22,138 +22,110 @@
       <a href="france.html">France</a>
       <a href="italie.html">Italie</a>
       <a href="japon.html">Japon</a>
-      <a href="maroc.html" class="nav-active-ma">Maroc</a>
-      <a href="turquie.html">Turquie</a>
+      <a href="maroc.html">Maroc</a>
+      <a href="turquie.html" class="nav-active-tr">Turquie</a>
     </nav>
   </header>
 
 
-  <main class="ma-main">
+  <main class="tr-main">
+
+    <section class="tr-hero">
 
 
-    <section class="ma-intro">
-      <div class="ma-escale">
-        <span class="ma-escale-bar"></span>
-        <span>ESCALE AU MAROC</span>
-        <span class="ma-escale-flag">MA</span>
-      </div>
+      <input type="radio" name="plat-tr" id="p1" checked>
+      <input type="radio" name="plat-tr" id="p2">
+      <input type="radio" name="plat-tr" id="p3">
+      <input type="radio" name="plat-tr" id="p4">
 
-      <div class="ma-title-row">
-        <h1 class="ma-title">
-          Saveurs <span>marocaines</span>
+
+      <div class="tr-left">
+        <div class="tr-escale">
+          <span class="tr-escale-bar"></span>
+          <span>ESCALE EN TURQUIE</span>
+        </div>
+
+        <h1 class="tr-title">
+          Saveurs <span>turques</span>
         </h1>
-        <span class="ma-code">MA</span>
-      </div>
 
-      <p class="ma-subtitle">
-        Tajines qui mijotent, bols de harira fumante, couscous parfumé et douceurs au miel :
-        la cuisine marocaine mélange épices, convivialité et art de recevoir.
-      </p>
-    </section>
+        <p class="tr-subtitle">
+          Une cuisine généreuse, parfumée, héritière des palais ottomans. Grills, farcis,
+          pistaches, épices… la Turquie dévoile des plats aussi chaleureux que son hospitalité.
+        </p>
 
 
-    <section class="ma-layout">
+        <div class="tr-plates">
+          
+          <label class="tr-plate plate-1" for="p1">
+            <img src="image/turquie/baklava.jpg" alt="Assiette de baklava turc">
+          </label>
 
+          
+          <label class="tr-plate plate-2" for="p2">
+            <img src="image/turquie/cig-kofte.jpg" alt="Assiette de çiğ köfte">
+          </label>
 
-      <input type="radio" name="ma-plat" id="ma-chebakia" checked>
-      <input type="radio" name="ma-plat" id="ma-couscous">
-      <input type="radio" name="ma-plat" id="ma-harira">
-      <input type="radio" name="ma-plat" id="ma-tajine">
+          
+          <label class="tr-plate plate-3" for="p3">
+            <img src="image/turquie/karniyarik.jpg" alt="Plat de karnıyarık">
+          </label>
 
-
-      <div class="ma-diamond-grid">
-
-        <label class="ma-diamond d1" for="ma-chebakia">
-          <div class="ma-diamond-inner">
-            <img src="image/maroc/chebakia.jpg" alt="Chebakia marocaine">
-            <span class="ma-chip">Chebakia</span>
-          </div>
-        </label>
-
-        <label class="ma-diamond d2" for="ma-couscous">
-          <div class="ma-diamond-inner">
-            <img src="image/maroc/couscous.jpg" alt="Couscous">
-            <span class="ma-chip">Couscous</span>
-          </div>
-        </label>
-
-        <label class="ma-diamond d3" for="ma-harira">
-          <div class="ma-diamond-inner">
-            <img src="image/maroc/harira.jpg" alt="Harira">
-            <span class="ma-chip">Harira</span>
-          </div>
-        </label>
-
-        <label class="ma-diamond d4" for="ma-tajine">
-          <div class="ma-diamond-inner">
-            <img src="image/maroc/tajine-poulet.jpg" alt="Tajine de poulet">
-            <span class="ma-chip">Tajine de poulet</span>
-          </div>
-        </label>
-
+          
+          <label class="tr-plate plate-4" for="p4">
+            <img src="image/turquie/yaprak-sarma.webp" alt="Yaprak sarma">
+          </label>
+        </div>
       </div>
 
 
-      <div class="ma-info">
+      <div class="tr-right">
 
-        <article class="ma-desc ma-desc-chebakia">
-          <h2>Chebakia au miel</h2>
-          <div class="ma-underline">
-            <span class="ma-col ma-col-r"></span>
-            <span class="ma-col ma-col-g"></span>
-            <span class="ma-col ma-col-g"></span>
-          </div>
+
+        <article class="tr-card d1">
+          <h2>Baklava</h2>
           <p>
-            Pâtisserie en forme de fleur, frite puis plongée dans un sirop de miel parfumé à l’eau de
-            fleur d’oranger et au sésame. On la retrouve souvent pendant le Ramadan, servie avec un bol de harira.
+            Feuilletage ultra fin au beurre, pistaches torréfiées et sirop léger&nbsp;:
+            un dessert croustillant et fondant, emblématique d’Istanbul. À partager,
+            mais difficile de s’arrêter à un seul carré…
           </p>
-          <span class="ma-tag">Dessert • Douceurs au miel</span>
+          <span class="tr-tag">Douceur ottomane</span>
         </article>
 
-        <article class="ma-desc ma-desc-couscous">
-          <h2>Couscous royal</h2>
-          <div class="ma-underline">
-            <span class="ma-col ma-col-r"></span>
-            <span class="ma-col ma-col-g"></span>
-            <span class="ma-col ma-col-g"></span>
-          </div>
+
+        <article class="tr-card d2">
+          <h2>Çiğ köfte</h2>
           <p>
-            Semoule de blé roulée à la main, cuite à la vapeur, légumes fondants et bouillon safrané.
-            Il se partage le vendredi en famille, autour d’une grande table généreuse.
+            Boulettes épicées servies fraîches dans des feuilles de salade, avec
+            citron et grenade. Un classique de rue&nbsp;: plein de caractère,
+            végétal, relevé juste ce qu’il faut.
           </p>
-          <span class="ma-tag">Plat principal • Convivialité</span>
+          <span class="tr-tag">Street-food épicée</span>
         </article>
 
-        <article class="ma-desc ma-desc-harira">
-          <h2>Harira parfumée</h2>
-          <div class="ma-underline">
-            <span class="ma-col ma-col-r"></span>
-            <span class="ma-col ma-col-g"></span>
-            <span class="ma-col ma-col-g"></span>
-          </div>
+
+        <article class="tr-card d3">
+          <h2>Karnıyarık</h2>
           <p>
-            Soupe traditionnelle à base de tomates, pois chiches, lentilles et coriandre fraîche.
-            Riche et réconfortante, elle ouvre souvent le repas du Ramadan avec quelques dattes et chebakia.
+            Aubergine fondante farcie de viande, tomates et oignons. Un plat
+            familial mijoté, riche et parfumé, qui arrive sur table encore
+            fumant avec du riz ou du boulghour.
           </p>
-          <span class="ma-tag">Soupe • Tradition du Ramadan</span>
+          <span class="tr-tag">Plat mijoté &amp; réconfort</span>
         </article>
 
-        <article class="ma-desc ma-desc-tajine">
-          <h2>Tajine de poulet au citron</h2>
-          <div class="ma-underline">
-            <span class="ma-col ma-col-r"></span>
-            <span class="ma-col ma-col-g"></span>
-            <span class="ma-col ma-col-g"></span>
-          </div>
+
+        <article class="tr-card d4">
+          <h2>Yaprak sarma</h2>
           <p>
-            Morceaux de poulet mijotés lentement avec des citrons confits, olives, oignons et épices.
-            Le tajine garde la chaleur et concentre les saveurs pour un plat fondant et parfumé.
+            Feuilles de vigne roulées autour d’un riz parfumé aux herbes,
+            à l’huile d’olive. Servies fraîches en mezze&nbsp;:
+            petites bouchées délicates, parfaites pour commencer le repas.
           </p>
-          <span class="ma-tag">Mijoté • Saveurs d’orient</span>
+          <span class="tr-tag">Mezze frais &amp; léger</span>
         </article>
 
       </div>
-
     </section>
 
   </main>
