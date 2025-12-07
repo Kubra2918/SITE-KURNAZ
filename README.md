@@ -53,4 +53,4 @@ Ce projet m’a permis de :
 
 Comment utiliser le site
 
-Il suffit d’ouvrir le fichier accueil.html dans un navigateur pour naviguer dans l’ensemble du site.
+Il suffit d’ouvrir le fichier index.html dans un navigateur pour naviguer dans l’ensemble du site.
